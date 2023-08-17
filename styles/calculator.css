@@ -3,6 +3,13 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
+div{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-top: 75px;
+}
+
 .calculation {
   color: white;
   font-size: 45px;
