@@ -7,7 +7,7 @@ div{
   display: grid;
   align-items: center;
   justify-content: center;
-  padding-top: 75px;
+  padding-top: auto;
 }
 
 .calculation {
