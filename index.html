@@ -100,6 +100,18 @@
 
         localStorage.setItem('calculation', calculation);
       ">Clear</button>
+      <button class="calculator-button gray-button" onclick="
+      calculation = String(calculation)
+      calculation =calculation.slice(0,-1);
+
+      displayCalculation();
+      
+      localStorage.setItem('calculation', calculation);
+      ">⌫</button>
+
+      <button class="calculator-button gray-button" onclick="
+      updateCalculation('%');
+      ">%</button>
     </p>
     </div>
 
