@@ -36,6 +36,16 @@ div{
   color: white;
 }
 
+.gray-button:hover {
+  background-color: #d9d9d9;
+  transition: 0.5s ease-in;
+}
+
+.orange-button:hover {
+  background-color: #fcc78d;
+  transition: 0.5s ease-in;
+}
+
 .orange-button {
   background-color: rgb(254, 160, 10);
   color: white;
